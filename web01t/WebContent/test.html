@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open("GET", 
+  "http://api.openweathermap.org/data/2.5/weather?q=seoul,kr",false);
+xhr.send();
+console.log(xhr.responseText);
+</script>
+</body>
+</html>
